@@ -28,7 +28,7 @@ export default function Modal({ onAdd }: props) {
     setTitle(event.target.value);
   };
 
-  const descriptionOnchang = (event: any) => {
+  const descriptionOnchange = (event: any) => {
     setDescription(event.target.value);
   };
 
@@ -57,7 +57,7 @@ export default function Modal({ onAdd }: props) {
               className="form-control"
               placeholder="description..."
               value={description}
-              onChange={descriptionOnchang}
+              onChange={descriptionOnchange}
             ></textarea>
           </div>
           <div className="modal-footer">
